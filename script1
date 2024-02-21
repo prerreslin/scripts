@@ -1,0 +1,83 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local ghost_room = Instance.new("TextButton")
+local ghost = Instance.new("TextButton")
+local spirit_box = Instance.new("TextButton")
+local motion_sensor = Instance.new("TextButton")
+local book = Instance.new("TextButton")
+local bone = Instance.new("TextButton")
+local cursed_obj = Instance.new("TextButton")
+local van_prompt = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(103, 103, 103)
+Frame.Position = UDim2.new(0.803476691, 0, 0.179411769, 0)
+Frame.Size = UDim2.new(0.168524429, 0, 0.555882335, 0)
+
+UICorner.Parent = Frame
+
+ghost_room.Name = "ghost_room"
+ghost_room.Parent = Frame
+ghost_room.BackgroundColor3 = Color3.fromRGB(185, 133, 10)
+ghost_room.Position = UDim2.new(0.0669291317, 0, 0.0740740746, 0)
+ghost_room.Size = UDim2.new(0.866141737, 0, 0.0740740746, 0)
+ghost_room.Text = "Ghost Room"
+
+ghost.Name = "ghost"
+ghost.Parent = Frame
+ghost.BackgroundColor3 = Color3.fromRGB(185, 133, 10)
+ghost.Position = UDim2.new(0.0669291317, 0, 0.182539687, 0)
+ghost.Size = UDim2.new(0.862204671, 0, 0.0793650821, 0)
+ghost.Text = "Ghost"
+
+spirit_box.Name = "spirit_box"
+spirit_box.Parent = Frame
+spirit_box.BackgroundColor3 = Color3.fromRGB(185, 133, 10)
+spirit_box.Position = UDim2.new(0.0669291317, 0, 0.296296299, 0)
+spirit_box.Size = UDim2.new(0.862204671, 0, 0.0793650821, 0)
+spirit_box.Text = "Spirit Box"
+
+motion_sensor.Name = "motion_sensor"
+motion_sensor.Parent = Frame
+motion_sensor.BackgroundColor3 = Color3.fromRGB(185, 133, 10)
+motion_sensor.Position = UDim2.new(0.0669291317, 0, 0.402116388, 0)
+motion_sensor.Size = UDim2.new(0.862204671, 0, 0.0793650821, 0)
+motion_sensor.Text = "motion sensor"
+
+book.Name = "book"
+book.Parent = Frame
+book.BackgroundColor3 = Color3.fromRGB(185, 133, 10)
+book.Position = UDim2.new(0.0669291317, 0, 0.515873015, 0)
+book.Size = UDim2.new(0.862204671, 0, 0.0793650821, 0)
+book.Text = "book"
+
+bone.Name = "bone"
+bone.Parent = Frame
+bone.BackgroundColor3 = Color3.fromRGB(185, 133, 10)
+bone.Position = UDim2.new(0.0669291317, 0, 0.640211642, 0)
+bone.Size = UDim2.new(0.862204671, 0, 0.0793650821, 0)
+bone.Text = "bone"
+
+cursed_obj.Name = "cursed_obj"
+cursed_obj.Parent = Frame
+cursed_obj.BackgroundColor3 = Color3.fromRGB(185, 133, 10)
+cursed_obj.Position = UDim2.new(0.0669291317, 0, 0.746031761, 0)
+cursed_obj.Size = UDim2.new(0.862204671, 0, 0.0793650821, 0)
+cursed_obj.Text = "curdsed obj"
+
+van_prompt.Name = "van_prompt"
+van_prompt.Parent = Frame
+van_prompt.BackgroundColor3 = Color3.fromRGB(185, 133, 10)
+van_prompt.Position = UDim2.new(0.0669291317, 0, 0.851851881, 0)
+van_prompt.Size = UDim2.new(0.862204671, 0, 0.0793650821, 0)
+van_prompt.Text = "van prompt"
